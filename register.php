@@ -12,7 +12,7 @@ if(isset($_POST['submitted']))
 
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US" style="min-height:100%;">
 <head>
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -101,7 +101,7 @@ a {
         
 </head>
 <body background="https://i0.wp.com/www.yoga-east.net/wp-content/uploads/2015/08/atlantic-blurred-background.jpg" 
-style="background-repeat: no-repeat;min-height:auto;">
+style="background-repeat: no-repeat;background-size:cover">
 
 <div style="padding-top: 5%;">
 <!-- Form Code Start -->
