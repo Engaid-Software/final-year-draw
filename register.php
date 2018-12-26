@@ -20,7 +20,7 @@ if(isset($_POST['submitted']))
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
-    <title>Contact us</title>
+    <title>Enter the draw!</title>
     <link rel="STYLESHEET" type="text/css" href="style/fg_membersidte.css" />
     <script type='text/javascript' src='scripts/gen_validatorv31.js'></script>
     <link rel="STYLESHEET" type="text/css" href="style/pwdwidgdet.css" />
