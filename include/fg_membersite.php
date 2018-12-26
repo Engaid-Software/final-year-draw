@@ -468,7 +468,7 @@ class FGMembersite
         return true;
     }
     
-/*     function SendUserWelcomeEmail(&$user_rec)
+     function SendUserWelcomeEmail(&$user_rec)
     {
         $mailer = new PHPMailer();
         
@@ -493,7 +493,7 @@ class FGMembersite
             return false;
         }
         return true;
-    } */
+    } 
     
     function SendAdminIntimationOnRegComplete(&$user_rec)
     {
