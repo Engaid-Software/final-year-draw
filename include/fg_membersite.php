@@ -132,7 +132,7 @@ class FGMembersite
         return true;
     }    
     
-    function Login()
+/*     function Login()
     {
         if(empty($_POST['username']))
         {
@@ -171,7 +171,7 @@ class FGMembersite
             return false;
          }
          return true;
-    }
+    } */
     
     function UserFullName()
     {
@@ -183,7 +183,7 @@ class FGMembersite
         return isset($_SESSION['email_of_user'])?$_SESSION['email_of_user']:'';
     }
     
-    function LogOut()
+/*     function LogOut()
     {
         session_start();
         
@@ -192,9 +192,9 @@ class FGMembersite
         $_SESSION[$sessionvar]=NULL;
         
         unset($_SESSION[$sessionvar]);
-    }
+    } */
     
-    function EmailResetPasswordLink()
+/*     function EmailResetPasswordLink()
     {
         if(empty($_POST['email']))
         {
@@ -294,7 +294,7 @@ class FGMembersite
             return false;
         }
         return true;
-    }
+    } */
     
     //-------Public Helper functions -------------
     function GetSelfScript()
@@ -421,7 +421,7 @@ class FGMembersite
         return true;
     }
     
-    function ResetUserPasswordInDB($user_rec)
+/*     function ResetUserPasswordInDB($user_rec)
     {
         $new_password = substr(md5(uniqid()),0,10);
         
@@ -444,7 +444,7 @@ class FGMembersite
             return false;
         }     
         return true;
-    }
+    } */
     
     function GetUserFromEmail($email,&$user_rec)
     {
@@ -468,7 +468,7 @@ class FGMembersite
         return true;
     }
     
-    function SendUserWelcomeEmail(&$user_rec)
+/*     function SendUserWelcomeEmail(&$user_rec)
     {
         $mailer = new PHPMailer();
         
@@ -493,7 +493,7 @@ class FGMembersite
             return false;
         }
         return true;
-    }
+    } */
     
     function SendAdminIntimationOnRegComplete(&$user_rec)
     {
@@ -521,7 +521,7 @@ class FGMembersite
         }
         return true;
     }
-    
+ /*    
     function GetResetPasswordCode($email)
     {
        return substr(md5($email.$this->sitename.$this->rand_key),0,10);
@@ -591,7 +591,7 @@ class FGMembersite
             return false;
         }
         return true;
-    }    
+    }  */   
     
     function ValidateRegistrationSubmission()
     {
@@ -629,7 +629,7 @@ class FGMembersite
         $formvars['name'] = $this->Sanitize($_POST['name']);
         $formvars['email'] = $this->Sanitize($_POST['email']);
         $formvars['username'] = $this->Sanitize($_POST['username']);
-        $formvars['referal'] = $this->Sanitize($_POST['referal']);
+        //$formvars['referal'] = $this->Sanitize($_POST['referal']);
     }
     
     function SendUserConfirmationEmail(&$formvars)
