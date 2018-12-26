@@ -101,7 +101,7 @@ a {
         
 </head>
 <body background="https://i0.wp.com/www.yoga-east.net/wp-content/uploads/2015/08/atlantic-blurred-background.jpg" 
-style="background-size: cover ;background-repeat: no-repeat;min-height:auto;">
+style="background-repeat: no-repeat;min-height:auto;">
 
 <div style="padding-top: 5%;">
 <!-- Form Code Start -->
