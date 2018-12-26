@@ -3,7 +3,7 @@ require_once("./include/membersite_config.php");
 
 if(isset($_POST['submitted']))
 {
-	printf("asd");
+	
    if($fgmembersite->RegisterUser())
    {
         $fgmembersite->RedirectToURL("thank-you.html");
