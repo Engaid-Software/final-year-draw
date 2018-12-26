@@ -6,7 +6,6 @@ if(isset($_POST['submitted']))
 	printf("asd");
    if($fgmembersite->RegisterUser())
    {
-	   printf("asd");
         $fgmembersite->RedirectToURL("thank-you.html");
    }
 }
@@ -102,7 +101,7 @@ a {
         
 </head>
 <body background="https://i0.wp.com/www.yoga-east.net/wp-content/uploads/2015/08/atlantic-blurred-background.jpg" 
-style="background-size: 100% 100% ;background-repeat: no-repeat;min-height:2000px;">
+style="background-size: cover ;background-repeat: no-repeat;min-height:auto;">
 
 <div style="padding-top: 5%;">
 <!-- Form Code Start -->
@@ -138,16 +137,21 @@ style="background-size: 100% 100% ;background-repeat: no-repeat;min-height:2000p
    --->
 
 	<div class="row">
-		<div class="col-sm-2">
-		<img  src="https://engaid.co.uk/wp-content/uploads/2018/11/cropped-engaid-logo-no-bkground-1-1.png" alt="Smiley face" height="60px" width="60pz"> 
+		<div class="col-sm-9" >
+			<h1 align="left" style="color:#7fa2db;font-family: 'Comic Sans MS', 'Comic Sans', cursive;" >
+				<b>End of Year draw 2018/2019</b>
+			</h1>
+		</div>
+		<div class="col-sm-3">
+			<img  align="right" src="https://engaid.co.uk/wp-content/uploads/2018/11/cropped-engaid-logo-no-bkground-1-1.png" alt="Smiley face" height="70px" width="70px"> 
 		</div> 
-    <div class="cosl-sm-10" ><h1 align="right" style="color:#7fa2db;font-family: 'Comic Sans MS', 'Comic Sans', cursive" ><b>End of Year draw 2018/2019</b></h1></div>
-</div>	
+		
+	</div>	
  
     
    
     <br>
-    <p>Provided to you by Engaid Ltd</p>
+    <p align="right">Provided to you by <a href="https://engaid.co.uk">Engaid Ltd</a></p>
 <div class='short_explanation'><b> *required fields</b></div>
 
 <div><span class='error'><?php echo $fgmembersite->GetErrorMessage(); ?></span></div>
